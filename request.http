@@ -1,0 +1,22 @@
+http://localhost:3005/users
+###
+POST http://localhost:3005/users HTTP/1.1
+content-type: application/json
+
+{
+  "usernames": "vdfdfgb",
+  "bio": "this is mt department"
+}
+
+
+###
+PUT http://localhost:3005/users/1 HTTP/1.1
+content-type: application/json
+
+{
+  "usernames": "DFGVFDGBDF",
+  "bio": "FGVDFGVREDTFGVD"
+}
+###
+DELETE  http://localhost:3005/users/2 HTTP/1.1
+content-type: application/json
